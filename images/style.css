@@ -55,19 +55,20 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 }
 
 .header {
-	background: #000 url(header.jpg) no-repeat right center;
-	background-size: contain;  /* This will scale the image to fit */
-	height: 78px;  /* Keep the same height */
-	width: 886px;  /* Full-width, but can be adjusted */
-	margin: 0 auto;
-	padding: 0;
-	overflow: hidden;
+    background: #FFF url('header.jpg') no-repeat right center;  /* Ensure image is on the right */
+    background-size: contain;  /* Keep the image contained within the header */
+    height: 78px;  /* Keep the same height */
+    width: 886px;  /* Ensure width matches the container */
+    margin: 0 auto;  /* Center the header */
+    padding: 0;
+    box-sizing: border-box;  /* Include padding and borders in the element's width/height */
+    overflow: hidden;  /* Ensure no overflow */
 }
 
 .header .title {
 	float: left;
 	padding: 12px 0 0 84px;
-	color: #FFF;
+	color: #46574D;
 	font: bold 1.8em Arial, sans-serif;
 }
 
@@ -75,7 +76,7 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 	float: left;
 	clear: both;
 	padding: 2px 0 0 84px;
-	color: #FFF;
+	color: #46574D;
 	font: bold 0.8em Arial, sans-serif;
 }
 
