@@ -1,4 +1,9 @@
 
+/*
+By Herreman David
+http://www.free-css-templates.com
+StyleSheet for BinaryNews Template
+*/
 
 body {
  background-color: #e7e7e7;
@@ -7,7 +12,7 @@ body {
 }
 
 a { color: #46574D; background: inherit; }
-a:hover { color: #647B6D; background: inherit;}
+a:hover { color: #647B6D; background: inherit; }
 
 h1 { font: bold 2em Arial, Sans-Serif; letter-spacing: -1px; padding: 16px 0 0 8px; margin: 0; }
 h2 { margin: 0; padding: 0; font: normal 1.6em Arial, Sans-Serif; letter-spacing: -1px; }
@@ -22,17 +27,19 @@ input.search { width: 122px; height: 15px; border: 1px dashed #46574D; backgroun
 input.submit { width: 28px; height: 20px; font-weight: bold; border: none; background: #FFF; padding: 3px; color: #616161; }
 
 .content { 
-    background: #FFF; 
+    background: #FFF;
     margin: 0 auto;
-    padding: 0px;
-    width: 90%;  /* Use 90% of the screen's width */
-    max-width: 1500px;  /* Ensure it doesn't stretch too wide on large screens */
+    padding: 0;
+    width: 100%;  /* Make sure content fills the screen */
+    max-width: 1200px;  /* Set a maximum width to control stretching on large screens */
     color: #000;
+    display: flex;  /* Use flexbox for better control over layout */
+    justify-content: space-between;
 }
 
 .preheader, .header, #nav, .footer {
-    width: 100%;  /* Make header, preheader, nav, and footer full width */
-    max-width: 1500px;  /* Constrain to a reasonable max width */
+    width: 100%;  /* Full width for these sections */
+    max-width: 1200px;  /* Keep them constrained for large screens */
     margin: 0 auto;
 }
 
@@ -95,8 +102,8 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 	background-color: #FFF;
 	margin: 0 auto;
 	padding: 0px;
-	width: 90%;  /* Use 90% of the screen's width */
-	max-width: 1500px;
+	width: 100%;  /* Full width */
+	max-width: 1200px;
 }
 
 .sd_left {
@@ -104,20 +111,25 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 	color: #000;
 	margin: 0;
 	padding: 20px;
-	width: 70%;  /* Allow left content to take 70% of the screen width */
+	width: 70%;  /* Adjust left content area to take 70% of available space */
 	float: left;
-}	
+}
 
 .sd_right {
-    clear:both;
     background-color: #FFF;
 	float: right;
 	color: #000;
-	margin: 0;
 	padding: 20px;
-	width: 28%;  /* Allow right content to take 28% of the screen width */
+	width: 28%;  /* Adjust right sidebar to take 28% of available space */
 	border-left: 1px dashed #ccc;
-}	
+}
+
+/* Clear floats to ensure proper alignment */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 .text_padding {
 	padding: 15px 0 0 0;
@@ -147,7 +159,7 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 	text-align:center; 
 	clear:both;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1200px;
 }
 
 .footer .padding {
@@ -159,7 +171,3 @@ img {
     height: auto;
 }
 
-		.footer .padding {
-			padding: 40px 0 0 0;
-				
-		}
