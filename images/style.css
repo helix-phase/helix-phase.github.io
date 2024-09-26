@@ -28,11 +28,11 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 
 
 .content { 
-    background: #FFF; 
-	margin: 0 auto;
-	padding: 0px;
-	width: 886px;
-	color: #000;
+    background: #FFF;
+    margin: 0 auto;
+    padding: 0px;
+    width: 886px;  /* Match the width of the header */
+    color: #000;
 }
 
 .preheader {
@@ -61,8 +61,14 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 	width: 886px;  /* Full width of the header */
 	margin: 0 auto;
 	padding: 0;
+	overflow: hidden;
 	background-color: transparent;  /* Ensure there's no black background */
 	}
+
+.preheader, .header, .footer, #nav, .main_content {
+    width: 886px;  /* Ensure all parts have the same width */
+    margin: 0 auto;
+}
 
 .header .title {
 	float: left;
