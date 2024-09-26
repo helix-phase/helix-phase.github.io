@@ -56,8 +56,9 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 
 .header {
 	background: #000 url(solids.jpg) no-repeat center bottom;
+	background-size: cover;  /* Ensures the image fills the header space */
 	color: #FFF;
-	width: 886px;
+	width: 700px;
 	height: 78px;
 	margin: 0;
 	padding: 0;
