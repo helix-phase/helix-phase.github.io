@@ -54,6 +54,7 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 	color: #FFF;
 }
 
+
 .header {
     background: url('header.jpg') no-repeat right center;  /* Keep image on right side */
     background-size: contain;  /* Make sure image fits without overflowing */
@@ -63,18 +64,12 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
     padding: 0;
     overflow: hidden;
     position: relative;  /* Added relative positioning to control the header alignment */
+	box-sizing: border-box;     /* Include padding/border in width calculation */
 }
 
-/* Fix black box issue */
 .header:before {
     content: '';
-    display: block;
-    background: none;  /* Remove the black box background */
-    height: 78px;  /* Match the header's height */
-    width: 100%;  /* Full width to cover */
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: none;  /* Disable any extra element that's creating the black background */
 }
 
 .header .title {
