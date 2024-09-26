@@ -39,6 +39,7 @@ font-weight:600;
 #header{
 height:244px;
 background:url(img/banner.jpg) center no-repeat;
+background-size: contain;
 }
 
 #header-h1{
