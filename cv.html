@@ -1,40 +1,29 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>My CV</title>
+    <style>
+        /* Add basic styling to ensure proper sizing and spacing */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        iframe {
+            display: block;
+            width: 100%;
+            height: 100vh; /* Viewport height to make the CV take up the entire screen */
+            border: none; /* Remove border around the iframe */
+        }
+    </style>
 </head>
 <body>
-<div class="content">
-    <div class="preheader">
-        <div class="padding"> <a href="#">About</a>&nbsp; <a href="#">Contact</a> </div>
-    </div>
-    <div class="header">
-        <div class="title">YOUR NAME</div>
-        <div class="slogan">Your Profession or Title</div>
-    </div>
-    <div id="nav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="writing.html">Writing</a></li>
-            <li id="current"><a href="cv.html">CV</a></li> <!-- This will be the active tab for CV -->
-        </ul>
-    </div>
-    <div class="main_content">
-        <div class="text_padding">
-            <h2>My CV</h2>
-            <!-- Embed the PDF CV in an iframe -->
-            <iframe src="Olds_CV.pdf" width="100%" height="600px">
-                <p>Your browser does not support iframes. Please <a href="cv.pdf" target="_blank">download the PDF</a>.</p>
-            </iframe>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="padding"> Powered by sNews | &copy; Copyright Your Site</div>
-    </div>
-</div>
+
+    <!-- Embed your PDF CV here -->
+    <iframe src="Olds_CV.pdf"></iframe>
+    
 </body>
 </html>
