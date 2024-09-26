@@ -59,7 +59,7 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 	background-size: cover;
 	height: 78px;
 	width: 100%;
-	max-width: 886px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
@@ -67,7 +67,7 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 	float: left;
 	padding: 12px 0 0 84px;
 	color: #000;
-	font: bold 1.8em Arial, sans-serif;
+	font: bold 2.5em Arial, sans-serif;
 }
 
 .header .slogan {
@@ -75,7 +75,7 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 	clear: both;
 	padding: 2px 0 0 84px;
 	color: #000;
-	font: bold 0.8em Arial, sans-serif;
+	font: bold 1.2em Arial, sans-serif;
 }
 
 #nav {
