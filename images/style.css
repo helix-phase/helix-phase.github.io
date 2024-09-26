@@ -56,7 +56,7 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 
 .header {
 	background: #000 url(header.jpg) no-repeat right center;
-	background-size: cover;  /* This will scale the image to fit */
+	background-size: contain;  /* This will scale the image to fit */
 	height: 78px;  /* Keep the same height */
 	width: 886px;  /* Full-width, but can be adjusted */
 	margin: 0 auto;
