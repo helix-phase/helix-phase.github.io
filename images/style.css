@@ -65,7 +65,7 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 .header .title {
 	float: left;
 	padding: 12px 0 0 84px;
-	color: #000;
+	color: #FFF;
 	font: bold 2.5em Arial, sans-serif;
 }
 
@@ -73,7 +73,7 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 	float: left;
 	clear: both;
 	padding: 2px 0 0 84px;
-	color: #000;
+	color: #FFF;
 	font: bold 1.2em Arial, sans-serif;
 }
 
