@@ -55,6 +55,7 @@ height:250px;
 margin:10px;
 text-align:center;
 background:url(img/highlight.jpg) left no-repeat;
+background-size: contain;
 }
 
 #showcase p{
