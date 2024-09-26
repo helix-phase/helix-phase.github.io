@@ -56,10 +56,10 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 
 .header {
 	background: #000 url(header.jpg) no-repeat center bottom;
-	background-size: cover;  /* Ensure the image covers the header area */
+	background-size: contain;  /* Ensure the image covers the header area */
 	height: 78px;
 	width: 100%;
-	max-width: 1200px;
+	max-width: 886px;
 	margin: 0 auto;  /* Remove any extra margins */
 	padding: 0;
 	background-color: transparent;  /* Ensure no black background */
