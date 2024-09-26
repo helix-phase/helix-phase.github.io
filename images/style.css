@@ -55,14 +55,26 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 }
 
 .header {
-    background: #FFF url('header.jpg') no-repeat right center;  /* Ensure image is on the right */
-    background-size: contain;  /* Keep the image contained within the header */
-    height: 78px;  /* Keep the same height */
-    width: 886px;  /* Ensure width matches the container */
-    margin: 0 auto;  /* Center the header */
+    background: url('header.jpg') no-repeat right center;  /* Keep image on right side */
+    background-size: contain;  /* Make sure image fits without overflowing */
+    height: 78px;
+    width: 886px;  /* Match content width */
+    margin: 0 auto;  /* Center the header within the page */
     padding: 0;
-    box-sizing: border-box;  /* Include padding and borders in the element's width/height */
-    overflow: hidden;  /* Ensure no overflow */
+    overflow: hidden;
+    position: relative;  /* Added relative positioning to control the header alignment */
+}
+
+/* Fix black box issue */
+.header:before {
+    content: '';
+    display: block;
+    background: none;  /* Remove the black box background */
+    height: 78px;  /* Match the header's height */
+    width: 100%;  /* Full width to cover */
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .header .title {
