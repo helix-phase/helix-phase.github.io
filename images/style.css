@@ -55,7 +55,7 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 }
 
 .header {
-	background: #000 url(header.jpg) no-repeat center bottom;
+	background: #000 url(banner.jpg) no-repeat center bottom;
 	color: #FFF;
 	width: 886px;
 	height: 78px;
