@@ -55,17 +55,14 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 }
 
 .header {
-	background: #000 url(header.jpg) no-repeat center bottom;
-	background-size: contain;  /* Ensure the image covers the header area */
-	height: 78px;
-	width: 100%;
-	max-width: 886px;
-	margin: 0 auto;  /* Remove any extra margins */
+	background: #000 url(header.jpg) no-repeat right center;
+	background-size: contain;  /* Ensure the entire image is visible */
+	height: 78px;  /* Match this to the height of your header */
+	width: 886px;  /* Full width of the header */
+	margin: 0 auto;
 	padding: 0;
-	background-color: transparent;  /* Ensure no black background */
-	z-index: 1;
-	overflow: hidden;
-}
+	background-color: transparent;  /* Ensure there's no black background */
+	}
 
 .header .title {
 	float: left;
