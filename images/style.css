@@ -1,4 +1,3 @@
-
 /*
 By Herreman David
 http://www.free-css-templates.com
@@ -8,7 +7,7 @@ StyleSheet for BinaryNews Template
 body {
  background-color: #e7e7e7;
  color: #FFF;
- padding: 0; margin: 0; font: 1.2em Arial, sans-serif; line-height: 1.5em;
+ padding: 0; margin: 0; font: 0.7em Arial, sans-serif; line-height: 1.5em;
 }
 
 a { color: #46574D; background: inherit; }
@@ -32,14 +31,14 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
     background: #FFF; 
 	margin: 0 auto;
 	padding: 0px;
-	width: 1550px;
+	width: 886px;
 	color: #000;
 }
 
 .preheader {
 	background: #000 url(preheader.jpg) no-repeat center bottom;
 	color: #FFF;
-	width: 1550px;
+	width: 886px;
 	height: 71px;
 	margin: 0;
 	padding: 0;
@@ -58,7 +57,7 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 .header {
 	background: #000 url(header.jpg) no-repeat center bottom;
 	color: #FFF;
-	width: 1550px;
+	width: 886px;
 	height: 78px;
 	margin: 0;
 	padding: 0;
@@ -82,7 +81,7 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 #nav {
 	background: #000 url(menu.jpg) no-repeat center bottom;
 	background-color: #000;
-	width: 1550px;
+	width: 886px;
 	height: 28px;
 	margin: 0;
 	padding: 0;
@@ -103,7 +102,7 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 	background-color: #FFF;
 	margin: 0 auto;
 	padding: 0px;
-	width: 1550px;
+	width: 886px;
 }
 
 
@@ -211,7 +210,7 @@ input.button {
 
 .footer { 
 	background: #000 url(footer.jpg) center no-repeat;
-	width: 1550px;
+	width: 886px;
 	height: 78px;
 	color:#555;  
 	font-size:90%;
