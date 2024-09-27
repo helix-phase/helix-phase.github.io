@@ -87,6 +87,15 @@ background:url(img/back.jpg) repeat-y;
 margin:0 auto;
 }
 
+.bottom-image {
+    position: absolute;
+    bottom: 10px; /* Position the image 10px from the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Center the image horizontally */
+    width: 100px; /* Adjust the size of the image */
+    height: auto;
+}
+
 #text p{
 padding: 5px 30px 5px 20px;
 line-height:1.5em;
