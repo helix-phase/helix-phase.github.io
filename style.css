@@ -58,6 +58,13 @@ background:url(img/highlight.jpg) left no-repeat;
 background-size: contain;
 }
 
+#showcase img {
+width: 150px; /* Set a fixed width */
+height: 150px; /* Set the height to be the same as the width */
+object-fit: cover; /* Ensures the image fills the circular area */
+border-radius: 50%; /* Makes the image circular */
+}
+
 #showcase p {
 text-align: center;
 font: 1.9em 'Trebuchet MS', Arial, Helvetica, sans-serif;
