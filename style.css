@@ -67,6 +67,25 @@ padding: 0;
 margin: 0 10px 0 400px; /* Add more margin on the left to push the text */
 }
 
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.profile-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.text-content {
+    text-align: center;
+}
+
 #top{
 width:780px;
 height:30px;
