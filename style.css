@@ -81,6 +81,23 @@ background:url(img/top.jpg) top center no-repeat;
 }
 
 #text{
+    position: relative;
+    padding-bottom: 50px; /* Adjust for spacing to avoid overlap with the image */
+}
+
+.bottom-center-image {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom-center-image img {
+    width: 30px; /* Adjust width as needed */
+    height: auto;
+}
+
+#text{
 padding-top:10px;
 width:780px;
 background:url(img/back.jpg) repeat-y;
