@@ -61,9 +61,10 @@ background-size: contain;
 
 #showcase p {
 text-align: center;
-font: 1.9em 'Trebuchet MS', Arial, Helvetica, sans-serif;
+font-size: 1.9em;
+font-family: Garamond, serif;
 padding: 0;
-margin: 0 10px 0 400px;  /* Add more margin on the left to push the text */
+margin: 0 10px 0 400px; /* Add more margin on the left to push the text */
 }
 
 
