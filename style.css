@@ -58,6 +58,14 @@ background:url(img/highlight.jpg) left no-repeat;
 background-size: contain;
 }
 
+/* Add this style for the oval photo */
+#showcase img {
+width: 150px; /* Adjust width as needed */
+height: 200px; /* Adjust height as needed */
+object-fit: cover; /* Ensures the image fills the oval shape */
+border-radius: 50%; /* Creates the oval shape */
+}
+
 /* #showcase p{
 text-align:right;
 font:1.9em 'Trebuchet MS', Arial, Helvetica, sans-serif;
@@ -107,13 +115,6 @@ margin:0 auto;
 #text p{
 padding: 5px 30px 5px 20px;
 line-height:1.5em;
-}
-
-.oval-photo {
-width: 150px; /* Adjust width as needed */
-height: 200px; /* Adjust height as needed */
-object-fit: cover; /* Ensures the image covers the oval shape */
-border-radius: 50%; /* Creates the oval effect */
 }
 
 #text p.first:first-letter{
