@@ -110,7 +110,8 @@ background:url(img/top.jpg) top center no-repeat;
 }
 
 .bottom-center-image img {
-    width: 70px; /* Adjust width as needed */
+    width: 80%; /* Make it full-width */
+    max-width: 800px; /* Limit the maximum width to look like a banner */
     height: auto;
 }
 
