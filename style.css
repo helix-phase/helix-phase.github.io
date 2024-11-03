@@ -40,7 +40,7 @@ font-size: 1.1em; /* Increase this value to make the links larger */
 }
 
 #header{
-height:244px;
+height:150px;
 background:url(img/banner.jpg) center no-repeat;
 background-size: contain;
 }
