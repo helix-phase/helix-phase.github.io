@@ -101,6 +101,7 @@ background:url(img/top.jpg) top center no-repeat;
     padding-bottom: 50px; /* Adjust for spacing to avoid overlap with the image */
 }
 
+/* Clipart of Mountain */
 .bottom-center-image {
     position: absolute;
     bottom: 10px;
@@ -113,14 +114,15 @@ background:url(img/top.jpg) top center no-repeat;
     height: auto;
 }
 
-/* Writing image */
-.image-below-text {
+
+.bottom-banner-image {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 20px; /* Space between the footer and the banner image */
 }
 
-.image-below-text img {
-    width: 300px; /* Adjust width as needed */
+.bottom-banner-image img {
+    width: 100%; /* Make it full-width */
+    max-width: 800px; /* Limit the maximum width to look like a banner */
     height: auto;
 }
 
