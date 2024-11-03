@@ -113,6 +113,17 @@ background:url(img/top.jpg) top center no-repeat;
     height: auto;
 }
 
+/* Writing image */
+.image-below-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-below-text img {
+    width: 300px; /* Adjust width as needed */
+    height: auto;
+}
+
 #text{
 padding-top:10px;
 width:780px;
