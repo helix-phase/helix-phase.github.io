@@ -22,8 +22,9 @@ margin: 0 auto;
 }
 
 #nav {
-height:25px;
-margin-bottom: 5px;
+height: 40px; /* Adjust this value to make the nav bar taller */
+margin-top: 20px; /* Add this to create space from the top of the page */
+margin-bottom: 5px; /* Optional: adjust this to control spacing below the nav bar */
 }
 
 #nav ul{
@@ -35,6 +36,7 @@ list-style:none;
 float:right;
 padding:0 10px;
 font-weight:600;
+font-size: 1.1em; /* Increase this value to make the links larger */
 }
 
 #header{
