@@ -110,15 +110,14 @@ background:url(img/top.jpg) top center no-repeat;
 }
 
 .bottom-center-image img {
-    width: 80%; /* Make it full-width */
-    max-width: 800px; /* Limit the maximum width to look like a banner */
+    width: 70px; /* Make it full-width */
     height: auto;
 }
 
 /* Rogue Wilderness */
 .bottom-banner-image {
     text-align: center;
-    margin-top: 20px; /* Space between the footer and the banner image */
+    margin-top: 15px; /* Space between the footer and the banner image */
 }
 
 .bottom-banner-image img {
