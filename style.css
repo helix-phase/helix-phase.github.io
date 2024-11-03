@@ -121,7 +121,7 @@ background:url(img/top.jpg) top center no-repeat;
 }
 
 .bottom-banner-image img {
-    width: 95%; /* Make it full-width */
+    width: 93%; /* Make it full-width */
     max-width: 800px; /* Limit the maximum width to look like a banner */
     height: auto;
 }
