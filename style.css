@@ -110,7 +110,7 @@ background:url(img/top.jpg) top center no-repeat;
 }
 
 .bottom-center-image img {
-    width: 70px; /* Make it full-width */
+    width: 80px; /* Make it full-width */
     height: auto;
 }
 
