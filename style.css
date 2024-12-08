@@ -17,8 +17,9 @@ text-decoration:none;
 }
 
 #wrapper{
-width:800px;
-margin: 0 auto;
+width: 90%; /* Use a percentage to make it responsive */
+max-width: 1200px; /* Set a maximum width to keep it readable */
+margin: 0 auto; /* Center the wrapper */
 }
 
 #nav {
