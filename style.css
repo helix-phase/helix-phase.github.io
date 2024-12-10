@@ -75,7 +75,7 @@ height: 250px; /* Adjust if needed to get the right vertical spacing */
 margin: 10px 20px; /* Add horizontal margin to center within the page */
 padding-left: 20px; /* Adjust this value to move the content right */
 text-align: center;
-background: url(img/highlight.jpg) left no-repeat;
+background: url(img/selfie.png) left no-repeat;
 background-size: contain;
 }
 
