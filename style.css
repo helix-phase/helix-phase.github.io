@@ -54,19 +54,20 @@ font-variant:small-caps;
 }
 
 
-/* #showcase {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-height: 250px;
-margin: 10px 0;
-text-align: center;
-background: url(img/selfie.png) left no-repeat;
-background-size: contain;
-}  */
-
 #showcase {
+display: flex; /* Enables flexbox for the container */
+align-items: center; /* Vertically centers the content */
+justify-content: flex-start; /* Aligns content to the left */
+height: 250px; /* Adjust for the desired vertical spacing */
+margin: 10px 20px; /* Centers the entire section horizontally within the page */
+text-align: left; /* Aligns text to the left */
+background: url(img/selfie.png) left center no-repeat; /* Centers the image vertically on the left */
+background-size: contain; /* Ensures the image fits within the container */
+padding: 0 20px; /* Adds padding for spacing */
+}
+
+
+/* #showcase {
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -77,7 +78,7 @@ padding-left: 20px; /* Adjust this value to move the content right */
 text-align: center;
 background: url(img/selfie.png) left no-repeat;
 background-size: contain;
-}
+} */
 
 
 
