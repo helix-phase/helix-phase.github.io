@@ -63,7 +63,7 @@ margin: 10px 20px; /* Add horizontal margin to center within the page */
 padding-left: 20px; /* Adjust this value to move the content right */
 text-align: center;
 background: url(img/selfie.png) left no-repeat;
-background-position: 50px center; /* Move the image 50px from the left */
+background-position: 40px center; /* Move the image 50px from the left */
 background-size: contain;
 }
 
