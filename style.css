@@ -53,22 +53,6 @@ font-weight:normal;
 font-variant:small-caps;
 }
 
-/* 
-#showcase {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-height: 250px;
-margin: 10px 0;
-text-align: center;
-background: url(img/selfie.png) no-repeat;
-background-position: 50px center; /* Move the image 50px from the left */
-background-size: contain;
-}  
-*/
-
-
 #showcase {
 display: flex;
 flex-direction: column;
